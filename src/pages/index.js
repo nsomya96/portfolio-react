@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+
 import "../styles/style.css"
 
 import Layout from '../components/layout'
@@ -7,13 +8,12 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <div className = "main">
     <nav className = "nav-bar">
-      <ul className = "nav-link">
-        <li><a href="#">Home</a></li>
-        <li><a href = "#">About</a></li>
-        <li><a href = "#">Projects</a></li>
-        <li><a href = "#">Resume</a></li>
-        <li><a href = "#">Contact</a></li>
-      </ul>
+      <div className = "nav-link">
+        <p className = "inside-nav"><a href="#">Home</a></p>
+        <p className = "inside-nav"><Link to="/about/">About</Link></p>
+        <p className = "inside-nav"><Link to = "/projects/">Projects</Link></p>
+        <p className = "inside-nav"><Link to = "/contact">Contact</Link></p>
+      </div>
     </nav>
     <div className = "intro">
       <h1>Hello World</h1>
