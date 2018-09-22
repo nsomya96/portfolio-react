@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import '..//styles/contact-style.css'
+import '../styles/contact-style.css'
 
 const Contact = () => (
   <main className="contacts">

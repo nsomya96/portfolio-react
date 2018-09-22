@@ -12,7 +12,7 @@ const IndexPage = () => (
         <p className = "inside-nav"><a href="#">Home</a></p>
         <p className = "inside-nav"><Link to="/about/">About</Link></p>
         <p className = "inside-nav"><Link to = "/projects/">Projects</Link></p>
-        <p className = "inside-nav"><Link to = "/contact">Contact</Link></p>
+        <p className = "inside-nav"><Link to = "/contact/">Contact</Link></p>
       </div>
     </nav>
     <div className = "intro">

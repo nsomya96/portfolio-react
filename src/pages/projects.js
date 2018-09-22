@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import "..//styles/project-style.css"
+import "../styles/project-style.css"
 
 const Projects = () => (
   <main className = "projects">
