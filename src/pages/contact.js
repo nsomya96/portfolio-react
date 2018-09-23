@@ -5,6 +5,22 @@ import '../styles/contact-style.css'
 
 const Contact = () => (
   <main className="contacts">
+    <nav className="nav-bar">
+      <div className="nav-link">
+        <p className="inside-nav">
+          <a href="#">Home</a>
+        </p>
+        <p className="inside-nav">
+          <Link to="/about/">About</Link>
+        </p>
+        <p className="inside-nav">
+          <Link to="/projects/">Projects</Link>
+        </p>
+        <p className="inside-nav">
+          <Link to="/contact/">Contact</Link>
+        </p>
+      </div>
+    </nav>
     <div className="contact-context">
       <p>
         You can contact me via <a href="mailto:somya.1723@gmailcom">email</a>
